@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: testpod
+  namespace: devsdev/devpod.yml
+spec:
+  containers:
+  - name: firstimage
+    image: akashsingh60/first
+    ports:
+    - containerPort: 8000
